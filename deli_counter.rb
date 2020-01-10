@@ -5,6 +5,15 @@ def take_a_number(array, string)
   place_in_line = array.index(string) + 1 
   puts "Welcome, #{string}. You are number #{place_in_line} in line."
 end
+
+def take_a_number(array)
+  
+  puts "Welcome, you have ticket number #{counter}"
+  counter += 1 
+  
+end
+
+counter = 1
   
 def line(array)
   default_line_string = "The line is currently:"
