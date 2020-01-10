@@ -6,14 +6,17 @@ def take_a_number(array, string)
   puts "Welcome, #{string}. You are number #{place_in_line} in line."
 end
 
+$counter = 1
+
 def take_a_number(array)
   
-  puts "Welcome, you have ticket number #{counter}"
-  counter += 1 
+  puts "Welcome, you have ticket number #{$counter}"
+  array << $counter
+  $counter += 1
   
 end
 
-counter = 1
+
   
 def line(array)
   default_line_string = "The line is currently:"
